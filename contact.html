@@ -1,17 +1,22 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
+<!-- Page settings, title, and CSS stylesheet -->
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact Me</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
+<!-- Contact page header -->
 <header>
 <h1>Contact Me</h1>
 </header>
 
+<!-- Navigation links to all four pages -->
 <nav>
 <p>
 <a href="index.html">Home</a>
@@ -21,30 +26,37 @@
 </p>
 </nav>
 
+<!-- Main contact section -->
 <article>
 <h2>Contact Me</h2>
+<!-- Contact form that opens an email application when submitted -->
 <form action="mailto:gehad.mohamed@ontariotechu.net" method="post" enctype="text/plain" name="form">
 
+<!-- Required field for the visitor's name -->
 <p>
 <label for="name">Name </label>
 <input type="text" id="name" name="name" size="32" required>
 </p>
 
+<!-- Required field for the visitor's email address -->
 <p>
 <label for="email">Email</label>
 <input id="email" name="email" type="email" size="40" required>
 </p>
 
+<!-- Required field for the visitor's phone number -->
 <p>
 <label for="phone">Phone Number</label>
 <input type="number" id="phone" name="phone" required>
 </p>
 
+<!-- Text area for the visitor's message -->
 <p>
 <label for="comments">Comments</label>
 <textarea id="comments" name="comments" rows="5" cols="40" required></textarea>
 </p>
 
+<!-- Button to submit the contact form -->
 <p>
 <input type="submit" value="Submit">
 </p>
@@ -53,6 +65,7 @@
 
 </article>
 
+<!-- Footer with contact email and copyright information -->
 <footer>
 <p>Email: gehad.mohamed@ontariotechu.net</p>
 <p>Copyright 2026 Gehad Mohamed</p>
