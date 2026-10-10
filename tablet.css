@@ -1,0 +1,16 @@
+
+/* Responsive layout for tablets and smaller desktops (601px to 1100px) */
+@media screen and (min-width: 601px) and (max-width: 1100px) {
+
+    /* Adjust profile photo size */
+    article img {
+        width: 60%;
+        height: auto;
+    }
+
+    /* Adjust project image size */
+    section img {
+        width: 70%;
+        height: auto;
+    }
+}

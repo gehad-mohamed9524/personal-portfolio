@@ -1,0 +1,39 @@
+
+/* Responsive layout for mobile screens (600px and below) */
+@media screen and (max-width: 600px) {
+
+    /* Stack navigation links vertically */
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    /* Make the profile photo larger on mobile */
+    article img {
+        width: 80%;
+        height: auto;
+    }
+
+    /* Adjust the main content for smaller screens */
+    article {
+        width: 85%;
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    /* Reduce project section padding */
+    section {
+        padding: 10px;
+    }
+
+    /* Make project images fit mobile screens */
+    section img {
+        width: 90%;
+        height: auto;
+    }
+
+    /* Adjust contact form fields */
+    input, textarea {
+        width: 90%;
+    }
+}
